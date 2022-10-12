@@ -1,0 +1,4 @@
+# Algorithme AffichageNomComplet
+nom = input("entrez votre nom : ")
+prenom = input("entrez votre prenom : ")
+print("Votre nom complet est " , nom, prenom)

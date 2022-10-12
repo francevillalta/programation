@@ -1,0 +1,31 @@
+Algorithme AffichageNomComplet
+    variables Nom, Prenom, Nom_Complet: chaîne de caractères
+    Début
+        écrire("entrez votre nom")
+        lire(Nom)
+        écrire("entrez votre prénom")
+        lire(Prenom)
+        Nom_Complet ← Nom &  Prenom
+        écrire("Votre nom complet est : ", Nom_Complet)
+    Fin
+
+
+
+Algorithme CalculDouble
+    variables A, B : entier
+    Début
+        écrire("entrer le nombre ")
+        lire(A)
+        B ← 2 * A
+        écrire("le double de ", A, "est :", B)
+    Fin
+
+Algorithme AffichagePrenom
+    variables prenom : chaîne de caractères entier 
+    Début
+        Ecrire("Quel est votre prenom ?")
+        Lire(Prenom)
+        Ecrire ("Bonjour ", Prenom, " !")
+    Fin
+
+    

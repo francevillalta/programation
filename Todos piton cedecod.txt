@@ -1,0 +1,115 @@
+
+// Pseudo-code
+
+Algorithme AffichageNomComplet
+    variables Nom, Prenom, Nom_Complet: chaîne de caractères
+    Début
+        écrire("entrez votre nom")
+        lire(Nom)
+        écrire("entrez votre prénom")
+        lire(Prenom)
+        Nom_Complet ← Nom & Prenom
+        écrire("Votre nom complet est : ", Nom_Complet)
+    Fin
+
+Algorithme CalculDouble
+    variables A, B : entier
+    Début
+        écrire("entrer le nombre ")
+        lire(A)
+        B ← 2 * A
+        écrire("le double de ", A, "est :", B)
+    Fin
+
+Algorithme AffichagePrenom
+    variables prenom : chaîne de caractères
+    Début
+        Ecrire("Quel est votre prenom ?")
+        Lire Prenom
+        Ecrire ("Bonjour ", Prenom, " !")
+    Fin 
+
+
+Algorithme CalculPrixTTC
+    variables nb, pht, ttva, pttc : reel
+    Début
+        Ecrire("Entrez le prix hors taxes :")
+        Lire(pht)
+        Ecrire("Entrez le nombre d’articles :")
+        Lire (nb)
+        Ecrire ("Entrez le taux de TVA :")
+        Lire(ttva)
+        pttc ← nb * pht * (1 + ttva)
+        Ecrire("Le prix toutes taxes est : ", pttc)
+    Fin 
+
+Algorithme AffichagePositif
+    variables n : entier
+    Début
+        Ecrire("Entrez un nombre : ")
+        Lire(n)
+        Si n > 0 Alors
+            Ecrire("Ce nombre est positif")
+        Sinon
+            Ecrire("Ce nombre est négatif")
+        Finsi
+    Fin
+
+// python
+
+# x = 1
+# y = 2
+# z = 0
+
+# z = x
+# x = y
+# y = z
+
+# print(x)
+# print(y)
+
+# Algorithme AffichageNomComplet
+# nom = input("entrez votre nom : ")
+# prenom = input("entrez votre prenom : ")
+# print("Votre nom complet est " + nom, prenom)
+
+# # Algorithme CalculDouble
+# a = input("entrez un nombre : ")
+# b = int(a) * 2
+# print(b)
+
+# # Algorithme AffichagePrenom
+# prenom = input("entrez votre prenom : ")
+# print("Bonjour " + prenom)
+
+# Algorithme CalculPrixTTC
+# prix_HT = input("entrez le prix hors taxe : ")
+# nb_Articles = input("enAlgo PositiOuNegatif
+variable n : entier
+
+debut
+    ecrire "Entrez un nombre :"
+    lire (n)
+    si (n>0) alors 
+        ecrire (n,"Positif")
+    sinon
+        ecrire (n,"Négatif")
+    finsi
+fintrez le nombre d'articles : ")
+# taux_TVA = input("entrez le taux de TVA : ")
+# total_TTC = float(prix_HT) * int(nb_Articles) * (1 + float(taux_TVA) / 100)
+# print("le prix toutes taxes est : ",  total_TTC)
+
+# Algorithme AffichagePositif
+# nombre = input("entrez un chiffre : ")
+# if int(nombre) > 0:
+#   print("Ce nombre est positif")
+# else :
+#   print("Ce nombre est négatif")
+
+nombre = input("entrez un chiffre : ")
+if int(nombre) % 3 == 0 :
+  print("Ce nombre est disible par 3, resultat " , int(nombre) / 3 )
+else :
+  print("Ce nombre n'est pas divisible par 3, resultat " , int(nombre) / 3)
+

@@ -1,0 +1,14 @@
+Fonction ProduitDouble (a : entier ) : entier
+    variable b : entier
+    b ← 2 * a
+    retourne(b)
+FinFonction
+
+Algorithme CalculDouble
+    variables a : entier
+    Début
+        écrire("entrer le nombre ")
+        lire(a)
+        écrire("le double de ", a, "est :", ProduitDouble(a))
+    Fin
+    

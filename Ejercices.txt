@@ -1,0 +1,22 @@
+Ecrire un algorithme qui demande un nombre de départ, et qui ensuite affiche les dix nombres suivants. 
+Par exemple, si l'utilisateur entre le nombre 17, le programme affichera les nombres de 18 à 27.
+
+Algorithme AffichageTantQue
+Variables N, i en Entier
+Debut
+    Ecrire("Entrez un nombre : ")
+    Lire(N)
+    i ← 0
+    Ecrire("Les 10 nombres suivants sont : ")
+    TantQue(i < 10)
+        i ← i + 1
+        Ecrire(N + 1)
+    FinTantQue
+Fin
+
+nbr = input("Entrez un nombre : ")
+i = 0
+print("Les 10 nombres suivants sont : ")
+while i < 10:
+    i = i + 1
+    print(int(nbr) + i)
